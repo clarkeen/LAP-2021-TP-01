@@ -8,14 +8,14 @@ public class Ejercicios {
 	 * 
 	 */
 	public static int suma(int a, int b) {
-		return 0;
+		return a + b;
 	}
 	
 	/*
 	 * Devolver el máximo valor
 	 */
 	public static double maximo (double a, double b) {
-		return 0;
+		return  a > b ? a: b;
 	}
 	
 	/*
@@ -66,6 +66,7 @@ public class Ejercicios {
 	
 	/*
 	 * Convierte temperatura expresada en Fahrenheit a centígrados  
+	 * 
 	 */
 	public static float fahrenheitToCelsius(float fahrenheit) {
 		return 0;
@@ -101,12 +102,6 @@ public class Ejercicios {
 		return 0;
 	}
 	
-	/*
-	 * Devuelve verdadero si el número es primo
-	 */
-	public static boolean esPrimo(int valor){
-		return false;		
-	}
 		
 	/*
 	 * Devuelve el valor promedio de los números informadoa 
@@ -130,13 +125,6 @@ public class Ejercicios {
 	}
 	
 	
-	/*
-	 * Devuelve la sucesión de fibonacci de orden n 
-	 */
-	public static int[] sucesionFibonacci (int n) {
-		int[] retval = {1, 2, 3};
-		return retval;
-	}
 	
 	/*
 	 * Recibe una matriz de tres por tres y devuelve verdadero
